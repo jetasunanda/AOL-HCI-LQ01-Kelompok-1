@@ -1,1 +1,0 @@
-# AOL-HCI-LQ01-Kelompok-1
