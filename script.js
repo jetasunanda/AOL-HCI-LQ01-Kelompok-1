@@ -26,6 +26,7 @@ function searchingSimsNav(targetSims) {
 }
 
 if (searchQuery !== null) {
+  console.log(searchQuery);
   searchingSimsNav(searchQuery);
 }
 
