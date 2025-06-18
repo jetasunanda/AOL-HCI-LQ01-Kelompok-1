@@ -25,8 +25,6 @@ function searchingSimsNav(targetSims) {
   });
 }
 
-console.log(searchQuery);
-
 if (searchQuery !== null) {
   searchingSimsNav(searchQuery);
 }
