@@ -25,7 +25,7 @@ function searchingSimsNav(targetSims) {
   });
 }
 
-if (searchQuery === "") {
+if (searchQuery !== "") {
   searchingSimsNav(searchQuery);
 }
 
