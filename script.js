@@ -25,7 +25,9 @@ function searchingSimsNav(targetSims) {
   });
 }
 
-searchingSimsNav(searchQuery);
+if (searchQuery === "") {
+  searchingSimsNav(searchQuery);
+}
 
 function searchingSims(e) {
   const searchSims = e.target.value.toLowerCase();
