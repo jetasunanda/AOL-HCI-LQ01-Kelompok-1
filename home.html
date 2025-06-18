@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PhET Home</title>
+
+    <link rel="stylesheet" href="home.css" />
+    <link rel="stylesheet" href="navNfooter.css" />
+  </head>
+  <body>
+    <header>
+      <div class="left" onclick="location.href='home.html'">
+        <div class="logo">
+          <img src="images/phet-logo.png" />
+        </div>
+        <h1>PhET Interactive Simulation</h1>
+      </div>
+
+      <div class="right">
+        <select>
+          <option>English</option>
+          <option>Indonesian</option>
+        </select>
+
+        <button>About</button>
+        <form>
+          <div class="search">
+            <img class="search-icon" src="images/search-icon.png" />
+            <input
+              class="search-input"
+              id="search-input"
+              type="search"
+              placeholder="Search for simulation"
+            />
+          </div>
+        </form>
+
+        <select>
+          <option>Category</option>
+          <option>Physics</option>
+          <option>Math & Statistics</option>
+          <option>Chemistry</option>
+          <option>Earth & Space</option>
+          <option>Biology</option>
+        </select>
+
+        <button onclick="location.href='login.html'">Login / Register</button>
+      </div>
+    </header>
+
+    <div class="hero">
+      <h2>Fun, interactive, research-based simulations</h2>
+      <p>
+        PhET simulations are based on extensive education research and engage
+        students through an intuitive, game-like environment.
+      </p>
+      <button onclick="location.href='product.html'">
+        Explore Simulations
+      </button>
+    </div>
+
+    <div class="stats-bar">
+      Over <strong>1.7 billion</strong> simulations delivered
+    </div>
+
+    <div class="categories">
+      <div class="category">
+        PHYSICS
+        <img src="images/physics-icon.svg" />
+      </div>
+
+      <div class="category">
+        MATH & STATISTICS
+        <img src="images/math-and-statistics-icon.svg" />
+      </div>
+
+      <div class="category">
+        CHEMISTRY
+        <img src="images/chemistry-icon.svg" />
+      </div>
+
+      <div class="category">
+        EARTH & SPACE
+        <img src="images/earth-and-space-icon.svg" />
+      </div>
+
+      <div class="category">
+        BIOLOGY
+        <img src="images/biology-icon.svg" />
+      </div>
+    </div>
+
+    <div class="community">
+      <div class="container">
+        <h3>Teaching Resources, Activities, and Community</h3>
+        <p>
+          Teachers have access to simulation-specific tips and video primers,
+          resources for teaching with simulations, and activities shared by our
+          teacher community.
+        </p>
+        <button onclick="location.href='register.html'">REGISTER NOW</button>
+      </div>
+    </div>
+
+    <div class="stats">
+      <div class="stat">
+        <h4>173</h4>
+        <p>INTERACTIVE SIMULATIONS</p>
+        <img src="images/interactive-icon.png" />
+      </div>
+
+      <div class="stat">
+        <h4>129</h4>
+        <p>LANGUAGE TRANSLATIONS</p>
+        <img src="images/languages-icon.png" />
+      </div>
+
+      <div class="stat">
+        <h4>3604</h4>
+        <p>TEACHER SUBMITTED LESSONS</p>
+        <img src="images/lessons-icon.png" />
+      </div>
+    </div>
+
+    <div class="about">
+      <p>
+        Founded in 2002 by Nobel Laureate Carl Wieman, the PhET Interactive
+        Simulations project at the University of Colorado Boulder creates free
+        interactive math and science simulations. PhET sims are based on
+        extensive education research and engage students through an intuitive,
+        game-like environment where students learn through exploration and
+        discovery.
+      </p>
+    </div>
+
+    <footer>
+      <div class="container">
+        <div>
+          <p>
+            PhET<br />University of Colorado 390 UCB<br />Boulder, CO 80309-0390
+          </p>
+          <p>📻 💬 📞 🌐</p>
+        </div>
+
+        <div>
+          <p>
+            <strong>Contact Us</strong
+            ><br />phet-partnerships@colorado.edu<br />phethelp@colorado.edu
+          </p>
+        </div>
+
+        <div>
+          <p>
+            <strong>Other</strong><br /><a href="#">About Us</a><br /><a
+              href="#"
+              >Simulation</a
+            >
+          </p>
+        </div>
+      </div>
+
+      <hr />
+
+      <div class="message">
+        © 2025 PhET Interactive Simulations, University of Colorado Boulder. All
+        rights reserved.
+      </div>
+    </footer>
+    <script src="searchNav.js"></script>
+  </body>
+</html>

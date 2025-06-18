@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PhET Login</title>
+
+    <link rel="stylesheet" href="navNfooter.css" />
+    <link rel="stylesheet" href="loginNregis.css" />
+  </head>
+  <body>
+    <div class="login-container">
+      <div class="header">
+        <button class="back-button" onclick="location.href='home.html'">
+          <span>‹</span> Back
+        </button>
+      </div>
+
+      <h1 class="title">PhET Interactive Simulation</h1>
+
+      <form>
+        <div class="form-group">
+          <label class="form-label" for="username">Username</label>
+          <input
+            type="text"
+            id="username"
+            class="form-input"
+            placeholder="Enter your username"
+            required
+          />
+        </div>
+
+        <div class="form-group">
+          <label class="form-label" for="email">Email address</label>
+          <input
+            type="email"
+            id="email"
+            class="form-input"
+            placeholder="Enter your email address"
+            required
+          />
+        </div>
+
+        <div class="form-group">
+          <label class="form-label" for="password">Password</label>
+          <input
+            type="password"
+            id="password"
+            class="form-input"
+            placeholder="Enter your password"
+            required
+          />
+        </div>
+
+        <div class="form-group">
+          <label class="form-label" for="confirm-password"
+            >Confirm password</label
+          >
+          <input
+            type="password"
+            id="confirm-password"
+            class="form-input"
+            placeholder="Enter your password again"
+            required
+          />
+        </div>
+
+        <button type="submit" class="login-btn">
+          <span>Login</span>
+        </button>
+      </form>
+
+      <div class="divider">
+        <span>already have an account?</span>
+      </div>
+
+      <div class="register-section">
+        <button class="register-btn" onclick="location.href='login.html'">
+          Login now
+        </button>
+      </div>
+    </div>
+  </body>
+</html>

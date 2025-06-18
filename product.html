@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PhET Interactive Simulation</title>
+
+    <link rel="stylesheet" href="navNfooter.css" />
+    <link rel="stylesheet" href="product.css" />
+  </head>
+
+  <body>
+    <header>
+      <div class="left" onclick="location.href='home.html'">
+        <div class="logo">
+          <img src="images/phet-logo.png" />
+        </div>
+        <h1>PhET Interactive Simulation</h1>
+      </div>
+
+      <div class="right">
+        <select>
+          <option>English</option>
+          <option>Indonesian</option>
+        </select>
+
+        <button>About</button>
+        <form>
+          <div class="search">
+            <img class="search-icon" src="images/search-icon.png" />
+            <input
+              class="search-input"
+              id="search-input"
+              type="search"
+              placeholder="Search for simulation"
+            />
+          </div>
+        </form>
+
+        <select>
+          <option>Category</option>
+          <option>Physics</option>
+          <option>Math & Statistics</option>
+          <option>Chemistry</option>
+          <option>Earth & Space</option>
+          <option>Biology</option>
+        </select>
+
+        <button onclick="location.href='login.html'">Login / Register</button>
+      </div>
+    </header>
+
+    <main class="main-content">
+      <nav class="breadcrumb">Home > Simulations</nav>
+      <h1 class="page-title">All</h1>
+
+      <div class="search-section">
+        <input
+          type="text"
+          class="main-search"
+          id="search-sims"
+          placeholder="Search for simulation"
+        />
+        <select class="filter-btn">
+          Filter ▼
+          <option>Category</option>
+          <option>Physics</option>
+          <option>Math & Statistics</option>
+          <option>Chemistry</option>
+          <option>Earth & Space</option>
+          <option>Biology</option>
+        </select>
+
+        <select class="sort-btn">
+          Sort by ▼
+          <option>A-Z</option>
+          <option>Z-A</option>
+          <option>Newest</option>
+          <option>Oldest</option>
+        </select>
+      </div>
+
+      <div class="categories">
+        <div class="category-card">
+          <div class="category-icon">📚</div>
+          <div class="category-title">All</div>
+          <div class="category-count">174 Simulations</div>
+        </div>
+        <div class="category-card">
+          <div class="category-icon">⚡</div>
+          <div class="category-title">Physics</div>
+          <div class="category-count">112 Simulations</div>
+        </div>
+        <div class="category-card">
+          <div class="category-icon">📊</div>
+          <div class="category-title">Math & Statistics</div>
+          <div class="category-count">54 Simulations</div>
+        </div>
+        <div class="category-card">
+          <div class="category-icon">🧪</div>
+          <div class="category-title">Chemistry</div>
+          <div class="category-count">55 Simulations</div>
+        </div>
+        <div class="category-card">
+          <div class="category-icon">🌍</div>
+          <div class="category-title">Earth & Space</div>
+          <div class="category-count">26 Simulations</div>
+        </div>
+        <div class="category-card">
+          <div class="category-icon">🧬</div>
+          <div class="category-title">Biology</div>
+          <div class="category-count">18 Simulations</div>
+        </div>
+      </div>
+
+      <div class="simulations-grid">
+        <div class="simulation-card">
+          <div class="sim-image">
+            <img src="images/projectile-sampling-distributions.png" />
+          </div>
+
+          <div class="sim-content">
+            <div class="sim-tags">
+              <span class="sim-tag">Mathematics & Statistics</span>
+              <span class="sim-tag">Math Applications</span>
+            </div>
+            <h3 class="sim-title">Projectile Sampling Distributions</h3>
+            <p class="sim-description">
+              This simulation demonstrates how projectile trajectories and their
+              statistical distributions are...
+            </p>
+            <button class="play-btn" onclick="location.href='simulations.html'">
+              ▶ Play Simulation
+            </button>
+          </div>
+        </div>
+
+        <div class="simulation-card">
+          <div class="sim-image">
+            <img src="images/quantum-coin-toss.png" />
+          </div>
+          <div class="sim-content">
+            <div class="sim-tags">
+              <span class="sim-tag">Physics</span>
+              <span class="sim-tag">Quantum Phenomena</span>
+            </div>
+            <h3 class="sim-title">Quantum Coin Toss</h3>
+            <p class="sim-description">
+              This simulation demonstrates how projectile trajectories and their
+              statistical distributions are...
+            </p>
+            <button class="play-btn">▶ Play Simulation</button>
+          </div>
+        </div>
+
+        <div class="simulation-card">
+          <div class="sim-image">
+            <img src="images/models-of-the-hydrogen-atom.png" />
+          </div>
+          <div class="sim-content">
+            <div class="sim-tags">
+              <span class="sim-tag">Chemistry</span>
+              <span class="sim-tag">General Chemistry</span>
+            </div>
+            <h3 class="sim-title">Models of the Hydrogen Atom</h3>
+            <p class="sim-description">
+              This simulation visualizes various historical and quantum models
+              of the hydrogen atom, showcasing...
+            </p>
+            <button class="play-btn">▶ Play Simulation</button>
+          </div>
+        </div>
+
+        <div class="simulation-card">
+          <div class="sim-image">
+            <img src="images/my-solar-system.png" />
+          </div>
+          <div class="sim-content">
+            <div class="sim-tags">
+              <span class="sim-tag">Earth & Space</span>
+            </div>
+            <h3 class="sim-title">My Solar System</h3>
+            <p class="sim-description">
+              This simulation lets users create and observe custom solar systems
+              with up to four celestial bodies,...
+            </p>
+            <button class="play-btn">▶ Play Simulation</button>
+          </div>
+        </div>
+
+        <div class="simulation-card">
+          <div class="sim-image">
+            <img src="images/natural-selection.png" />
+          </div>
+          <div class="sim-content">
+            <div class="sim-tags">
+              <span class="sim-tag">Biology</span>
+            </div>
+            <h3 class="sim-title">Natural Selection</h3>
+            <p class="sim-description">
+              This simulation allows users to explore natural selection by
+              manipulating environmental...
+            </p>
+            <button class="play-btn">▶ Play Simulation</button>
+          </div>
+        </div>
+
+        <div class="simulation-card">
+          <div class="sim-image">
+            <img src="images/buoyancy-basics.png" />
+          </div>
+          <div class="sim-content">
+            <div class="sim-tags">
+              <span class="sim-tag">Physics</span>
+              <span class="sim-tag">Motion</span>
+            </div>
+            <h3 class="sim-title">Buoyancy: Basics</h3>
+            <p class="sim-description">
+              This simulation explores the principles of buoyancy, demonstrating
+              how...
+            </p>
+            <button class="play-btn">▶ Play Simulation</button>
+          </div>
+        </div>
+
+        <div class="simulation-card">
+          <div class="sim-image">
+            <img src="images/quadrilateral.png" />
+          </div>
+          <div class="sim-content">
+            <div class="sim-tags">
+              <span class="sim-tag">Math & Statistics</span>
+              <span class="sim-tag">Math Concepts</span>
+            </div>
+            <h3 class="sim-title">Quadrilateral</h3>
+            <p class="sim-description">
+              This simulation allows users to manipulate quadrilaterals to
+              explore their geometric properties and...
+            </p>
+            <button class="play-btn">▶ Play Simulation</button>
+          </div>
+        </div>
+
+        <div class="simulation-card">
+          <div class="sim-image">
+            <img src="images/quantum-measurement.png" />
+          </div>
+          <div class="sim-content">
+            <div class="sim-tags">
+              <span class="sim-tag">Chemistry</span>
+              <span class="sim-tag">Quantum Chemistry</span>
+            </div>
+            <h3 class="sim-title">Quantum Measurement</h3>
+            <p class="sim-description">
+              This simulation allows users to explore quantum measurement by
+              interacting with 2-level quantum...
+            </p>
+            <button class="play-btn">▶ Play Simulation</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="pagination">
+        <button class="page-btn active">1</button>
+        <button class="page-btn">2</button>
+        <button class="page-btn">⋯</button>
+        <button class="page-btn">25</button>
+        <button class="page-btn">▶</button>
+      </div>
+    </main>
+
+    <footer>
+      <div class="container">
+        <div>
+          <p>
+            PhET<br />University of Colorado 390 UCB<br />Boulder, CO 80309-0390
+          </p>
+          <p>📻 💬 📞 🌐</p>
+        </div>
+
+        <div>
+          <p>
+            <strong>Contact Us</strong
+            ><br />phet-partnerships@colorado.edu<br />phethelp@colorado.edu
+          </p>
+        </div>
+
+        <div>
+          <p>
+            <strong>Other</strong><br /><a href="#">About Us</a><br /><a
+              href="#"
+              >Simulation</a
+            >
+          </p>
+        </div>
+      </div>
+
+      <hr />
+
+      <div class="message">
+        © 2025 PhET Interactive Simulations, University of Colorado Boulder. All
+        rights reserved.
+      </div>
+    </footer>
+    <script src="searchNav.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
